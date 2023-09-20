@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Vite App</title>
+
+</head>
+
+<body class="flex flex-col">
+  <section id="carrinho"
+    class="fixed top-0 right-[-360px] bg-[#CCC8AA] h-screen w-[360px] z-50 duration-700 border-l p-5 flex flex-col justify-between">
+    <div id="cabecalho-carrinho" class="flex justify-between m-4 ">
+      <p class="text-[18px]">Meu carrinho</p>
+      <button id="fechar-carrinho">
+        <i class="fa-regular fa-circle-xmark"></i>
+      </button>
+    </div>
+    <section id="produtos-carrinho" class="h-3/5"></section>
+    <p id="preco-total">$200</p>
+    <button class="bg-slate-200 p-2">Finalizar Compra</button>
+  </section>
+
+  <header class="flex text-xl bg-[#CCC8AA] shadow-slate-300 shadow-lg px-8 py-4 justify-between sticky top-0 z-10	 ">
+    <img class="h-auto ml-5" src="./assets/logo/tt.png" alt="logo TtCommerce" />
+    <div class="text-slate-200 flex gap-5 items-end ">
+      <button>
+        <i class="fa-solid fa-user text-[20px]" style="color: #000000;"></i>
+      </button>
+      <button id="abrir-carrinho">
+        <i class="fa-solid fa-cart-shopping text-[20px]" style="color: #000000;"></i>
+      </button>
+    </div>
+  </header>
+  <main>
+    <section id="container-produto"
+      class="grid grid-cols-4 gap-4 items-center justify-center mt-[50px] container	ml-auto mr-auto ">
+    </section>
+  </main>
+  <script type="module" src=" ./main.js"> </script>
+</body>
+
+</html>
