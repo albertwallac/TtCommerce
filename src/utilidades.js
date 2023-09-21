@@ -70,5 +70,5 @@ export const catalogo = [
         promocional: "R$299,99",
         imagem: 'product-8.jpg',
         feminino: true,
-    }
+    },
 ];
