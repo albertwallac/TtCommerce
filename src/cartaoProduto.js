@@ -7,7 +7,7 @@ export function renderizarCatalogo() {
         const cartaoProduto =
             `<div id="card-produto-1" class=" flex w-80 m-2 items-center flex-col group shadow-lg rounded-lg">
             <img
-                src="./assets/img/${produtoCatalogoo.imagem}" 
+                src="~/assets/img/${produtoCatalogoo.imagem}" 
                 alt="Produto 1 do TtCommerce"        
                 class="hover:scale-105 p-4"            
             />
