@@ -11,7 +11,7 @@ export function renderizarCatalogo() {
                 alt="Produto 1 do TtCommerce"        
                 class="hover:scale-105 p-4"            
             />
-            <div class="flex items-start flex-col w-80 p-4">            
+            <div class="flex items-start flex-col w-80 p-2 ml-[20px] h-[120px]">            
                 <p class="text-stone-950 font-bold font-mono text-xl" >${produtoCatalogoo.marca}</p>
                 <p class="text-stone-400 text-[16px]">${produtoCatalogoo.nome}</p>
                 <div class="flex items-start flex-row">
@@ -19,7 +19,7 @@ export function renderizarCatalogo() {
                     <p class="mb-[8px]">${produtoCatalogoo.promocional}</p>
                 </div>       
             </div>
-            <div class="flex items-start flex-col w-80">
+            <div class="flex items-start flex-col w-80 h-[20px]">
                 <button 
                     id='adicionar-${produtoCatalogoo.id}'
                     class= "bg-[#F1EFEF] text-[#191717] w-full hover:bg-[#7d7c7c52] h-[30px] rounded-lg">
