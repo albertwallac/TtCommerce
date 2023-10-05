@@ -59,7 +59,7 @@ function desenharProdutosNoCarrinho(idProduto) {
     <i class="fa-regular fa-circle-xmark text-slate-400  hover:text-slate-900"></i>
   </button>
   <img 
-      src="./assets/img/${produto.imagem}" 
+      src="./img/${produto.imagem}" 
       alt="Carrinho: ${produto.nome}"
       class="h-[7rem] rounded-lg" 
   />
